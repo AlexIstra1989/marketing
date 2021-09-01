@@ -1,0 +1,31 @@
+.header {
+    background-image: url("/assets/images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+
+    &__top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+        padding: 40px 0;
+    }
+
+    &__title {
+        font-size: 72px;
+        line-height: 88px;
+        color: #fff;
+        text-align: center;
+        margin-top: 247px;
+        margin-bottom: 19px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 20px;
+        color: #FCBB08;
+        text-align: center;
+    }
+}
