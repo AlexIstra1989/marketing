@@ -1,5 +1,23 @@
 .about {
-    &__inner {
-        display: flex;
-    }
+  padding: 152px 0 159px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__title {
+    font-size: 48px;
+  }
+
+  &__box-text {
+    font-family: "SFProDiaplay-Light", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 790px;
+  }
+
+  &__text:first-child {
+    margin-bottom: 18px;
+  }
 }

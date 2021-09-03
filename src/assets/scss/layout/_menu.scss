@@ -1,14 +1,23 @@
 .menu {
-    &__list {
-        display: flex;
-    }
+  &__list {
+    display: flex;
+  }
 
-    &__item {
-        margin-right: 50px;
-        &:last-child {
-            margin-right: 0;
-        }
+  &__item + &__item {
+    margin-left: 32px;
+  }
+
+  &__link {
+    font-family: "Raleway-Bold", sans-serif;
+    padding: 0 9px 9px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    transition: all .5s;
+    &:hover {
+      border-bottom: 1px solid #FCBB08;
     }
+  }
 
 
 }

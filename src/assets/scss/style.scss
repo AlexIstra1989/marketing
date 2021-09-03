@@ -1,6 +1,8 @@
-@import "normalize.scss";
-@import "container.scss";
-@import "layout/header";
-@import "layout/menu";
-@import "layout/about";
-@import "layout/expertise";
+@import "./base/normalize";
+@import "./base/fonts";
+@import "./base/container";
+@import "./base/title";
+@import "./layout/header";
+@import "./layout/menu";
+@import "./layout/about";
+@import "./layout/expertise";

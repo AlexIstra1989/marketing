@@ -1,31 +1,48 @@
 .header {
-    background-image: url("/assets/images/header-bg.jpg");
+  &__top-inner {
+    padding-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__content {
+    background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    min-height: 100vh;
+    background-position: center center;
+  }
+  
+  &__content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 93px);
 
-    &__top {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #fff;
-        padding: 40px 0;
-    }
+  }
 
-    &__title {
-        font-size: 72px;
-        line-height: 88px;
-        color: #fff;
-        text-align: center;
-        margin-top: 247px;
-        margin-bottom: 19px;
-    }
+  &__title {
+    font-family: "Montserrat-Medium";
+    font-size: 72px;
+    line-height: 88px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 19px;
+  }
 
-    &__text {
-        font-size: 16px;
-        line-height: 20px;
-        color: #FCBB08;
-        text-align: center;
-    }
+  &__subtitle {
+    font-family: "Montserrat-Bold";
+    font-style: 16px;
+    line-height: 20px;
+    letter-spacing: 2.7px;
+    color: #FCBB08;
+    margin-bottom: auto;
+  }
+
+  &__icon {
+    margin-bottom: 62px;
+  }
+
+
 }

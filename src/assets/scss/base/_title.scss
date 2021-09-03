@@ -1,0 +1,18 @@
+.title {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: -1.65px;
+  padding-bottom: 18px;
+  position: relative;
+  align-self: flex-start;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #FCBB08;
+    left: 0;
+    bottom: 0;
+  }
+}
