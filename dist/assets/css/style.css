@@ -357,7 +357,7 @@ template {
 }
 
 @font-face {
-    font-family: "SFProDiaplay-Light";
+    font-family: "SFProDiaplay-Light", sans-serif;
   src: url("../fonts/SFProDisplay-Light.woff") format("woff"), url("../fonts/SFProDisplay-Light.woff2") format("woff2");
   font-style: normal;
   font-weight: 300;
@@ -413,7 +413,7 @@ template {
 }
 
 @font-face {
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Bold", sans-serif;
   src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;
@@ -434,6 +434,122 @@ template {
     margin: 0 auto;
 }
 
-.header {
-    background-color: red;
+.title {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+    padding-bottom: 18px;
+    position: relative;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #FCBB08;
+    left: 0;
+    bottom: 0;
+}
+
+.header__top-inner {
+    padding-bottom: 29px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.header__content {
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__content-inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: calc(100vh - 93px);
+}
+
+.header__title {
+    font-family: "Montserrat-Medium";
+    font-size: 72px;
+    line-height: 88px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 19px;
+}
+
+.header__subtitle {
+    font-family: "Montserrat-Bold";
+    font-style: 16px;
+    line-height: 20px;
+    letter-spacing: 2.7px;
+    color: #FCBB08;
+    margin-bottom: auto;
+}
+
+.header__icon {
+    margin-bottom: 62px;
+}
+
+.menu__list {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu__item + .menu__item {
+    margin-left: 32px;
+}
+
+.menu__link {
+    font-family: "Raleway-Bold", sans-serif;
+    padding: 0 9px 9px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    transition: all .5s;
+}
+
+.menu__link:hover {
+    border-bottom: 1px solid #FCBB08;
+}
+
+.about {
+    padding: 152px 0 159px;
+}
+
+.about__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-size: 48px;
+}
+
+.about__box-text {
+    font-family: "SFProDiaplay-Light", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 790px;
+}
+
+.about__text:first-child {
+    margin-bottom: 18px;
 }

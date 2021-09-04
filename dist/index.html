@@ -12,35 +12,34 @@
 
 <body>
   <header class="header">
-    <div class="header__top">
-      <div class="container">
-        <div class="header__top-inner">
-          <a class="logo" href="#">
-            <img class="logo__img" src="./assets/images/header-logo.png" alt="Логотип">
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a class="menu__link" href="#">HOME</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">ABOUT US</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">PORTFOLIO</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">OUR TEAM</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">BLOG</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <div class="header__top"></div>
+    <div class="container">
+      <div class="header__top-inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./assets/images/header-logo.png" alt="Логотип">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">HOME</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">ABOUT US</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">OUR TEAM</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">BLOG</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
     <div class="header__content">
@@ -60,7 +59,7 @@
     </div>
   </header>
 
-  <main class="main"> 
+  <main class="main">
     <section class="about">
       <div class="container">
         <div class="about__inner">
@@ -84,41 +83,61 @@
 
     <section class="expertise">
       <div class="container">
-        <h2 class="title">
+        <h2 class="expertise__title title">
           Our Expertise
         </h2>
         <div class="expertise__inner">
-
-
+          <div class="expertise__info">
+            <div class="expertise__info-item">
+              BRANDING
+              <span style="width: calc(100% - 90%);">90%</span>
+            </div>
+            <div class="expertise__info-item">
+              <div></div>
+              DESIGN
+              <span style="width: calc(100% - 80%);">80%</span>
+            </div>
+            <div class="expertise__info-item">
+              DEVELOPMENT
+              <span style="width: calc(100% - 85%);">85%</span>
+            </div>
+          </div>
+          <div class="expertise__text">
+            <p>
+              В стратегию интернет-маркетинга входит создание имиджевой и рекламной концепции, разработка
+              контент-стратегии, распределение использования различных каналов коммуникации.
+            </p>
+            <p>
+              Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие действия с учетом
+              изменений. Главной целью в этом процессе для нас является конечный результат, а не следование планам.
+            </p>
+          </div>
         </div>
-        <div class="expertise__box">
-          <p></p>
-          <p></p>
-        </div>
+
         <div class="expertise__wrapper">
-          <div class="expertise__item">
-            <h3 class="expertise__item-title">
+          <div class="expertise__item expertise__item--design">
+            <h4 class="expertise__item-title">
               GRAPHIC DESIGN
-            </h3>
-            <p class="expertise__text">
+            </h4>
+            <p class="expertise__item-text">
               Рекламный дизайн, дизайн упаковки, этикетки, листовок, каталогов, разработка презентаций,
               дизайн выставочных стендов
             </p>
           </div>
-          <div class="expertise__item">
-            <h3 class="expertise__item-title">
+          <div class="expertise__item expertise__item--web">
+            <h4 class="expertise__item-title">
               WEB DEVELOPMENT
-            </h3>
-            <p class="expertise__text">
+            </h4>
+            <p class="expertise__item-text">
               Разрабатываем веб сайты от концепции до реализации. Дизайн, верстка, программирование и
-              запуск сайт в сеть
+              запуск сайта в сеть
             </p>
           </div>
-          <div class="expertise__item">
-            <h3 class="expertise__item-title">
+          <div class="expertise__item expertise__item--marketing">
+            <h4 class="expertise__item-title">
               MARKETING
-            </h3>
-            <p class="expertise__text">
+            </h4>
+            <p class="expertise__item-text">
               Разрабатываем маркетинговое и рекламное продвижение Вашего продукта или услуги под ключ и на
               любой бюджет.
             </p>
@@ -128,66 +147,112 @@
     </section>
 
     <section class="magic">
-      <div class="magic__inner">
-        <img class="magic__img" src="assets/images/magic-img.jpg" alt="щенок">
-        <div class="magic__box">
-          <h2 class="title">
+      <div class="container">
+        <div class="magic__inner">
+          <h2 class="magic__title title">
             Let’s make magic.
           </h2>
-          <p>
-            Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в
-            Харькове и Украине: маркетинговые исследования рынков, товаров, потребителей, планирование
-            комплекса маркетинга, реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
-          </p>
-          <p>
-            Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от
-            недвижимости до аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших
-            клиентов, мы сами вышли из бизнес-среды и понимаем суть бизнес-процессов.
-          </p>
-          <p>
-            Мы говорим с бизнесом на одном языке!
-          </p>
+          <div class="magic__text">
+            <p>
+              Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в
+              Харькове и Украине: маркетинговые исследования рынков, товаров, потребителей, планирование
+              комплекса маркетинга, реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
+            </p>
+            <p>
+              Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от
+              недвижимости до аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших
+              клиентов, мы сами вышли из бизнес-среды и понимаем суть бизнес-процессов.
+            </p>
+            <p>
+              Мы говорим с бизнесом на одном языке!
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="portfolio">
-      <div class="portfolio__inner">
-        <h2 class="title">
-          Portfolio
-        </h2>
-        <ul class="portfolio__list">
-          <li class="portfolio__item">
-            <a class="portfilio__link" href="#">ALL</a>
-          </li>
-          <li class="portfolio__item">
-            <a class="portfilio__link" href="#">BRANDING</a>
-          </li>
-          <li class="portfolio__item">
-            <a class="portfilio__link" href="#">DESIGN</a>
-          </li>
-          <li class="portfolio__item">
-            <a class="portfilio__link" href="#">PHOTOGRAPHY</a>
-          </li>
-          <li class="portfolio__item">
-            <a class="portfilio__link" href="#">ILLUSTRATION</a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="portfolio__inner">
+          <h2 class="title">
+            Portfolio
+          </h2>
+          <div class="portfolio__filter">
+            <button class="portfolio__filter-btn" data-filter="all">ALL</button>
+            <button class="portfolio__filter-btn" data-filter="a">BRANDING</button>
+            <button class="portfolio__filter-btn" data-filter="b">DESIGN</button>
+            <button class="portfolio__filter-btn" data-filter="c">PHOTOGRAPHY</button>
+            <button class="portfolio__filter-btn" data-filter="d">ILLUSTRATION</button>
+          </div>
+        </div>
       </div>
-      <div class="portfolio__wrapper">
+      <div class="portfolio__content">
+        <div class="portfolio__item mix category-a">
+          <img src="assets/images/portfolio-img-1.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-a">
+          <img src="assets/images/portfolio-img-2.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="assets/images/portfolio-img-4.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="assets/images/portfolio-img-4.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-b">
+          <img src="assets/images/portfolio-img-5.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-c">
+          <img src="assets/images/portfolio-img-6.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-c">
+          <img src="assets/images/portfolio-img-7.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-c">
+          <img src="assets/images/portfolio-img-8.jpg" alt="portfolio images">
+        </div>
+        <div class="portfolio__item mix category-d">
+          <img src="assets/images/portfolio-img-9.jpg" alt="portfolio images">
+        </div>
+      </div>
+      <a class="portfolio__add" href="#">VIEW MORE PROJECTS</a>
+      <blockquote class="portfolio__blockquote">
+        «Неважно какую историю вы рассказываете, главное – сделайте своего покупателя героем»
+        <span class="blockquote__author">Крис Броган</span>
+      </blockquote>
+      <div class="portfolio__video">
+        <a href="#" class="portfolio__video-link">
+          <img src="assets/images/play-icon.svg" alt="play icon">
+        </a>
+      </div>
+      <div class="container">
+        <div class="portfolio__result">
+          <h5 class="portfolio__result-item">
+            305
+            <span>Web Designs</span>
+          </h5>
+          <h5 class="portfolio__result-item">
+            220
+            <span>Logo Designs</span>
+          </h5>
+          <h5 class="portfolio__result-item">
+            52
+            <span>Print Design</span>
+          </h5>
+          <h5 class="portfolio__result-item">
+            88
+            <span>Mobile Apps</span>
+          </h5>
+        </div>
+      </div>
 
-      </div>
-      <button class="portfolio__btn">VIEW MORE PROJECTS</button>
     </section>
 
-    <section>
-
-    </section>
 
 
-  </main> -->
 
-
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

@@ -1,0 +1,26 @@
+.magic {
+  background-color: #F6F8FA;
+  background-image: url("../images/magic-img.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+
+  &__inner {
+    padding: 100px 0 190px;
+    max-width: 470px;
+    margin-left: auto;
+  }
+
+  &__title {
+    margin-bottom: 67px;
+  }
+
+  &__text {
+    font-family: "OpenSans-Light",sans-serif;
+  }
+
+  &__text + &__text {
+    margin-top: 25px;
+  }
+
+}
