@@ -27,12 +27,39 @@
   &__content {
     column-count: 4;
     column-gap: 22px;
-    margin-bottom: 100px;
+    margin-bottom: 72px;
   }
 
   &__item {
-    margin-bottom: 22px;
+    margin-top: 22px;
+    position: relative;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:hover .portfolio__item-link {
+      opacity: 1;
+    }
   }
+
+  &__item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    color: #fff;
+    background-color: #4C4A4A;
+    border: 12px solid #7D7C7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
+}
 
   &__item img {
     width: 100%;
@@ -104,6 +131,5 @@
     line-height: 19px;
     color: #333333;
   }
-
 
 }
