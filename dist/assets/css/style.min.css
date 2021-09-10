@@ -688,7 +688,8 @@ template {
     line-height: 52px;
     color: #242121;
     margin-bottom: 10px;
-    max-width: 675px; }
+    max-width: 675px;
+    display: inline-block; }
   .slider-blog__description {
     max-width: 585px; }
 

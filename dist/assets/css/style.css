@@ -862,4 +862,14 @@ template {
 
 .slider-blog__title {
     font-weight: bold;
+    font-style: 36px;
+    line-height: 52px;
+    color: #242121;
+    margin-bottom: 10px;
+    max-width: 675px;
+    display: inline-block;
+}
+
+.slider-blog__description {
+    max-width: 585px;
 }
