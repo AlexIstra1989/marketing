@@ -11,7 +11,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   min-height: 100vh;
   font-size: 14px;
   line-height: 24px; }
@@ -336,7 +336,7 @@ template {
   font-display: swap; }
 
 @font-face {
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   src: url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.woff2") format("woff2");
   font-style: normal;
   font-weight: 300;
@@ -357,7 +357,7 @@ template {
   font-display: swap; }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
@@ -440,7 +440,7 @@ template {
   min-height: calc(100vh - 93px); }
 
 .header__title {
-  font-family: "Montserrat-Medium";
+  font-family: "Montserrat", sans-serif;
   font-size: 72px;
   line-height: 88px;
   color: #fff;
@@ -448,7 +448,7 @@ template {
   margin-bottom: 19px; }
 
 .header__subtitle {
-  font-family: "Montserrat-Bold";
+  font-family: "Montserrat", sans-serif;
   font-style: 16px;
   line-height: 20px;
   letter-spacing: 2.7px;
@@ -465,7 +465,7 @@ template {
   margin-left: 32px; }
 
 .menu__link {
-  font-family: "Raleway-Bold", sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 0 9px 9px;
   font-size: 12px;
   line-height: 14px;
@@ -500,7 +500,7 @@ template {
     margin: 10px 30px 0 0;
     flex: none; }
   .expertise__info-item {
-    font-family: "OpenSans-Regular";
+    font-family: "Open Sans", sans-serif;
     font-size: 11px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -523,7 +523,7 @@ template {
       top: -2px;
       width: 100%; }
   .expertise__text p {
-    font-family: "SFProDisplay-Regular", sans-serif;
+    font-family: "SFProDisplay", sans-serif;
     color: #373A39;
     margin-bottom: 25px; }
   .expertise__wrapper {
@@ -547,13 +547,13 @@ template {
   .expertise__item--marketing::before {
     background-image: url("../images/icon-marketing.png"); }
   .expertise__item-title {
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 20px;
     letter-spacing: 4.29px;
     color: #333333;
     margin-bottom: 14px; }
   .expertise__item-text {
-    font-family: "SFProDisplay-Light", sans-serif;
+    font-family: "SFProDisplay", sans-serif;
     max-width: 285px;
     color: #777777; }
 
@@ -570,7 +570,7 @@ template {
   .magic__title {
     margin-bottom: 67px; }
   .magic__text {
-    font-family: "OpenSans-Light",sans-serif; }
+    font-family: "Open Sans",sans-serif; }
   .magic__text + .magic__text {
     margin-top: 25px; }
 
@@ -582,7 +582,7 @@ template {
     justify-content: space-between;
     margin-bottom: 105px; }
   .portfolio__filter-btn {
-    font-family: "OpenSans-Regular", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-right: 25px;
     border: none;
     padding: 0 4px 5px;
@@ -627,7 +627,7 @@ template {
     width: 100%; }
   .portfolio__add {
     display: block;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1.2px;
@@ -637,7 +637,7 @@ template {
     color: #242121;
     margin-bottom: 130px; }
   .portfolio__blockquote {
-    font-family: "Merriweather-LightItalic", serif;
+    font-family: "Merriweather", serif;
     font-size: 18px;
     font-style: italic;
     line-height: 36px;
@@ -665,7 +665,7 @@ template {
     display: flex;
     justify-content: space-around; }
   .portfolio__result-item {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     line-height: 73px;
     color: #242121;
@@ -673,7 +673,7 @@ template {
     text-align: center; }
   .portfolio__result-item span {
     display: block;
-    font-family: "OpenSans-Regular", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
@@ -692,5 +692,25 @@ template {
     display: inline-block; }
   .slider-blog__description {
     max-width: 585px; }
+
+.team {
+  padding: 120px 0 130px; }
+  .team__title {
+    margin-bottom: 100px; }
+  .team__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+  .team__name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 0 35px; }
+  .team__position {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #373A39; }
 
 /*# sourceMappingURL=style.min.css.map */
