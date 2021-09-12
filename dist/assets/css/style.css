@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     min-height: 100vh;
     font-size: 14px;
     line-height: 24px;
@@ -376,7 +376,7 @@ template {
 }
 
 @font-face {
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
   src: url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.woff2") format("woff2");
   font-style: normal;
   font-weight: 300;
@@ -400,7 +400,7 @@ template {
 }
 
 @font-face {
-    font-family: "OpenSans";
+    font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
@@ -504,7 +504,7 @@ template {
 }
 
 .header__title {
-    font-family: "Montserrat-Medium";
+    font-family: "Montserrat", sans-serif;
     font-size: 72px;
     line-height: 88px;
     color: #fff;
@@ -513,7 +513,7 @@ template {
 }
 
 .header__subtitle {
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat", sans-serif;
     font-style: 16px;
     line-height: 20px;
     letter-spacing: 2.7px;
@@ -535,7 +535,7 @@ template {
 }
 
 .menu__link {
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     padding: 0 9px 9px;
     font-size: 12px;
     line-height: 14px;
@@ -594,7 +594,7 @@ template {
 }
 
 .expertise__info-item {
-    font-family: "OpenSans-Regular";
+    font-family: "Open Sans", sans-serif;
     font-size: 11px;
     line-height: 20px;
     letter-spacing: 1px;
@@ -623,7 +623,7 @@ template {
 }
 
 .expertise__text p {
-    font-family: "SFProDisplay-Regular", sans-serif;
+    font-family: "SFProDisplay", sans-serif;
     color: #373A39;
     margin-bottom: 25px;
 }
@@ -663,7 +663,7 @@ template {
 }
 
 .expertise__item-title {
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 20px;
     letter-spacing: 4.29px;
     color: #333333;
@@ -671,7 +671,7 @@ template {
 }
 
 .expertise__item-text {
-    font-family: "SFProDisplay-Light", sans-serif;
+    font-family: "SFProDisplay", sans-serif;
     max-width: 285px;
     color: #777777;
 }
@@ -695,7 +695,7 @@ template {
 }
 
 .magic__text {
-    font-family: "OpenSans-Light",sans-serif;
+    font-family: "Open Sans",sans-serif;
 }
 
 .magic__text + .magic__text {
@@ -717,7 +717,7 @@ template {
 }
 
 .portfolio__filter-btn {
-    font-family: "OpenSans-Regular", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-right: 25px;
     border: none;
     padding: 0 4px 5px;
@@ -785,7 +785,7 @@ template {
 
 .portfolio__add {
     display: block;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1.2px;
@@ -797,7 +797,7 @@ template {
 }
 
 .portfolio__blockquote {
-    font-family: "Merriweather-LightItalic", serif;
+    font-family: "Merriweather", serif;
     font-size: 18px;
     font-style: italic;
     line-height: 36px;
@@ -838,7 +838,7 @@ template {
 }
 
 .portfolio__result-item {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     line-height: 73px;
     color: #242121;
@@ -848,7 +848,7 @@ template {
 
 .portfolio__result-item span {
     display: block;
-    font-family: "OpenSans-Regular", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
@@ -872,4 +872,35 @@ template {
 
 .slider-blog__description {
     max-width: 585px;
+}
+
+.team {
+    padding: 120px 0 130px;
+}
+
+.team__title {
+    margin-bottom: 100px;
+}
+
+.team__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team__name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 0 35px;
+}
+
+.team__position {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #373A39;
 }
