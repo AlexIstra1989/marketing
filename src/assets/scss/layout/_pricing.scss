@@ -1,27 +1,39 @@
 .pricing {
-  padding: 140px 0 160px;
+  padding: 145px 0 160px;
   background: #F6F8FA;
 
   &__title {
-    margin-bottom: 110px;
+    margin-bottom: 90px;
   }
 
   &__items {
     display: flex;
     justify-content: space-between;
+    
   }
 
-  &__item {
+  &__item,
+  ul {
     max-width: 370px;
     width: 100%;
     padding: 24px 0;
     height: 583px;
     background: #FFFFFF;
     text-align: center;
+    padding: 24px 25px 50px;
+    li {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 30px;
+      
+    }
   }
 
+  &__item-name,
   &__item-name {
     font-family: "Raleway", sans-serif;
+    text-align: left;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
