@@ -16,7 +16,6 @@
   ul {
     max-width: 370px;
     width: 100%;
-    padding: 24px 0;
     height: 583px;
     background: #FFFFFF;
     text-align: center;
@@ -26,29 +25,39 @@
       font-size: 16px;
       line-height: 22px;
       margin-bottom: 30px;
-      
     }
   }
-
-  &__item-name,
+  
+  &__item
   &__item-name {
     font-family: "Raleway", sans-serif;
     text-align: left;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    
   }
 
+  &__item
   &__item-num {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 80px;
     line-height: 109px;
+    margin-bottom: 50px;
     sup {
       font-size: 40px;
       line-height: 54px;
     }
+  }
+
+  &__link,
+  a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    display: block;
+    margin-bottom: 70px;
   }
   
 }

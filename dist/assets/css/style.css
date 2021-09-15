@@ -907,12 +907,12 @@ template {
 }
 
 .pricing {
-    padding: 140px 0 160px;
+    padding: 145px 0 160px;
     background: #F6F8FA;
 }
 
 .pricing__title {
-    margin-bottom: 110px;
+    margin-bottom: 90px;
 }
 
 .pricing__items {
@@ -922,17 +922,28 @@ template {
     justify-content: space-between;
 }
 
-.pricing__item {
+.pricing__item,
+  .pricing ul {
     max-width: 370px;
     width: 100%;
     padding: 24px 0;
     height: 583px;
     background: #FFFFFF;
     text-align: center;
+    padding: 24px 25px 50px;
 }
 
-.pricing__item-name {
+.pricing__item li,
+    .pricing ul li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.pricing__item-name, .pricing__item-name {
     font-family: "Raleway", sans-serif;
+    text-align: left;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
