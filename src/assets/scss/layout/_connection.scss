@@ -1,0 +1,16 @@
+.connection {
+  padding: 145px 0 160px;
+  background-image: url("../images/map.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right 100%;
+
+  &__title {
+    margin-bottom: 95px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+}

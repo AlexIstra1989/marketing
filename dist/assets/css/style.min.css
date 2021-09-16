@@ -767,4 +767,16 @@ template {
     justify-content: space-between;
     align-items: center; }
 
+.connection {
+  padding: 145px 0 160px;
+  background-image: url("../images/map.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right 100%; }
+  .connection__title {
+    margin-bottom: 95px; }
+  .connection__form {
+    display: flex;
+    flex-direction: column; }
+
 /*# sourceMappingURL=style.min.css.map */
