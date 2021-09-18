@@ -983,3 +983,22 @@ template {
     -ms-flex-align: center;
     align-items: center;
 }
+
+.connection {
+    padding: 145px 0 160px;
+    background-image: url("../images/map.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right 100%;
+}
+
+.connection__title {
+    margin-bottom: 95px;
+}
+
+.connection__form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
