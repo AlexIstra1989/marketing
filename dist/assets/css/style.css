@@ -989,16 +989,28 @@ template {
     background-image: url("../images/map.jpg");
     background-size: 40%;
     background-repeat: no-repeat;
-    background-position: right 100%;
+    background-position: right 82%;
 }
 
 .connection__title {
     margin-bottom: 95px;
 }
 
+.connection .connection__title {
+    margin-bottom: 80px;
+}
+
 .connection__form {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    max-width: 570px;
+}
+
+.connection__info {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #373A39;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 16px 0;
+    margin-bottom: 16px;
 }
