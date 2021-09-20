@@ -792,5 +792,13 @@ template {
       letter-spacing: 3.7px;
       color: #888;
       text-transform: uppercase; }
+  .connection__btn {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #242121;
+    padding: 15px 70px; }
 
 /*# sourceMappingURL=style.min.css.map */
