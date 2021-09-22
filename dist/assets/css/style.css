@@ -1052,3 +1052,13 @@ template {
     color: #888;
     text-transform: uppercase;
 }
+
+.connection__btn {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #242121;
+    padding: 15px 70px;
+}

@@ -3,7 +3,7 @@
   background-image: url("../images/map.jpg");
   background-size: 40%;
   background-repeat: no-repeat;
-  background-position: right 82%;
+  background-position: right 65%;
 
   &__title {
     margin-bottom: 95px;
@@ -13,11 +13,11 @@
     margin-bottom: 80px;  
   }
 
-  &__form {
+  &__info {
     max-width: 570px;
   }
 
-  &__info {
+  &__field {
     display: block;
     width: 100%;
     border: none;
@@ -31,7 +31,12 @@
       color: #888;
       text-transform: uppercase;
     }
-  
+  }
+
+  &__field--message {
+    min-height: 140px;
+    resize: none;
+    margin-bottom: 40px;
   }
 
   &__btn {
@@ -42,5 +47,7 @@
     color: #fff;
     background-color: #242121;
     padding: 15px 70px;
+    cursor: pointer;
+    border: none;
   }
 }
