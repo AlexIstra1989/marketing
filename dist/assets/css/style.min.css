@@ -807,4 +807,39 @@ template {
     cursor: pointer;
     border: none; }
 
+.footer__top {
+  padding: 110px 10px 60px;
+  background-color: #333;
+  text-align: center; }
+
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #FCBB08;
+  margin-bottom: 70px; }
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px; }
+
+.footer__social-item {
+  margin-right: 30px; }
+  .footer__social-item:last-child {
+    margin-right: 0; }
+
+.footer__social-link {
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 4px; }
+
+.footer__contacts {
+  max-width: 255px;
+  width: 100%;
+  color: #fff; }
+
+.footer__location {
+  font-size: 14px;
+  line-height: 32px; }
+
 /*# sourceMappingURL=style.min.css.map */

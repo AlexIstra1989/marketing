@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/scss/normalize.css">
+  <link rel="stylesheet" href="assets/scss/base/reset.scss">
   <link rel="stylesheet" href="assets/css/style.min.css">
   <title>gulp project</title>
 </head>
@@ -391,16 +391,16 @@
         </h2>
         <div class="pricing__items">
           <ul class="pricing__item">
-          <li class="pricing__item-name">Basic</li>
-          <li class="pricing__item-num"><sup>$</sup>290</li>
-          <li>1 Logo Design</li>
-          <li>1 Website Design</li>
-          <li>1 Domain Free</li>
-          <li>3 Month License</li>
-          <li>1 GB Storage</li>
-          <li>
-            <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
-          </li>
+            <li class="pricing__item-name">Basic</li>
+            <li class="pricing__item-num"><sup>$</sup>290</li>
+            <li>1 Logo Design</li>
+            <li>1 Website Design</li>
+            <li>1 Domain Free</li>
+            <li>3 Month License</li>
+            <li>1 GB Storage</li>
+            <li>
+              <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
+            </li>
           </ul>
           <ul class="pricing__item">
             <li class="pricing__item-name">Starter</li>
@@ -413,19 +413,19 @@
             <li>
               <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
             </li>
-            </ul>
-            <ul class="pricing__item">
-              <li class="pricing__item-name">Professional</li>
-              <li class="pricing__item-num"><sup>$</sup>1500</li>
-              <li>3 Logo Design</li>
-              <li>3 Website Design</li>
-              <li>2 Domain Free</li>
-              <li>12 Month License</li>
-              <li>2 GB Storage</li>
-              <li>
-                <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
-              </li>
-              </ul>
+          </ul>
+          <ul class="pricing__item">
+            <li class="pricing__item-name">Professional</li>
+            <li class="pricing__item-num"><sup>$</sup>1500</li>
+            <li>3 Logo Design</li>
+            <li>3 Website Design</li>
+            <li>2 Domain Free</li>
+            <li>12 Month License</li>
+            <li>2 GB Storage</li>
+            <li>
+              <a class="pricing__item-link" href="#">CHOOSE PLAN</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -460,16 +460,18 @@
         <form class="connection__info">
           <input class="connection__field" type="text" name="user" placeholder="ИМЯ" required>
           <input class="connection__field" type="text" name="email" placeholder="EMAIL" required>
-          <textarea class="connection__field connection__field--message" name="text" placeholder="ВАШЕ СООБЩЕНИЕ" required></textarea>
+          <textarea class="connection__field connection__field--message" name="text" placeholder="ВАШЕ СООБЩЕНИЕ"
+            required></textarea>
           <button class="connection__btn" type="submit">ОТПРАВИТЬ</button>
         </form>
       </div>
     </section>
 
     <footer class="footer">
-      <div class="container">
+
+      <div class="footer__top">
         <a class="logo" href="#">
-          <img class="logo__img" src="./assets/images/header-logo.png" alt="Логотип">
+          <img class="footer__logo" src="./assets/images/footer-logo.svg" alt="Логотип">
         </a>
         <ul class="footer__social-list">
           <li class="footer__social-item">
@@ -508,9 +510,12 @@
           <a class="footer__phone" href="tel:(38067)65252222">(38067) 65 252 222</a>
           <a class="footer__email" href="mailo:info@mail.com">info@mail.com</a>
         </address>
-        <div class="footer__copyright">
-          <span>@2020 O...Marketing</span>
-        </div>
+        <a class="go-top" href="#">
+          <img class="go-top__img" src="assets/images/footer-arrow.svg" alt="стрелка вверх">
+        </a>
+      </div>
+      <div class="footer__copyright">
+        <span>@2020 O...Marketing</span>
       </div>
     </footer>
 

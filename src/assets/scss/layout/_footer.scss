@@ -1,0 +1,48 @@
+.footer {
+  &__top {
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+  }
+
+  &__logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    border-bottom: 2px solid #FCBB08;
+    margin-bottom: 70px;
+  }
+
+  &__social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+  }
+
+  &__social-item {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__social-link {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 4px;
+  }
+
+  &__contacts {
+    max-width: 255px;
+    width: 100%;
+    color: #fff;   
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  &__phone,
+  &__email {
+    color: #fff;
+  }
+  
+
+}
