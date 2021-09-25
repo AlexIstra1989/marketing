@@ -34,11 +34,26 @@
   &__contacts {
     max-width: 255px;
     width: 100%;
-    color: #fff;   
+    color:rgba(255, 255, 255, 1);   
     font-size: 14px;
-    line-height: 32px;
+    line-height: 2.2;
+    margin: 0 auto;
+    margin-bottom: 55px;
   }
 
+  &__phone,
+  &__email {
+    display: block;
+  }
+
+  &__link-arrow {
+    margin: 0 auto;
+  }
+
+  &__copyright {
+    padding: 42px 15px;
+    background-color: #2A2C2B;
+  }
 
   
 
