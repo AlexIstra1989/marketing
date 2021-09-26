@@ -568,10 +568,14 @@ select {
   display: block; }
 
 .footer__link-arrow {
-  margin: 0 auto; }
+  display: inline-block; }
 
 .footer__copyright {
   padding: 42px 15px;
-  background-color: #2A2C2B; }
+  background-color: #2A2C2B;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #fff; }
 
 /*# sourceMappingURL=style.min.css.map */
