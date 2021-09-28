@@ -15,7 +15,14 @@
     &__list {
       display: none;
     }
-}
+  }
+
+  .menu__burger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
 
 }
 

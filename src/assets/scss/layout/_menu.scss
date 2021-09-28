@@ -14,9 +14,14 @@
     line-height: 14px;
     letter-spacing: 0.6px;
     transition: all .5s;
+    color: #000;
     &:hover {
       border-bottom: 1px solid #FCBB08;
     }
+  }
+
+  &__burger {
+    display: none;
   }
 
 

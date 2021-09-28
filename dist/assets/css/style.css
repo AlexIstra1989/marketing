@@ -812,17 +812,39 @@ select {
 }
 
 .footer__link-arrow {
-    margin: 0 auto;
+    display: inline-block;
 }
 
 .footer__copyright {
     padding: 42px 15px;
     background-color: #2A2C2B;
     text-align: center;
-}
-
-.footer__text {
     font-size: 12px;
     line-height: 1.9;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+    }
+
+    .menu__list {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .header__title {
+        font-size: 36px;
+    }
+
+    .header__subtitle {
+        font-size: 12px;
+    }
 }

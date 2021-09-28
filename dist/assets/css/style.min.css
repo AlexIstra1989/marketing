@@ -193,9 +193,13 @@ select {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.6px;
-  transition: all .5s; }
+  transition: all .5s;
+  color: #000; }
   .menu__link:hover {
     border-bottom: 1px solid #FCBB08; }
+
+.menu__burger {
+  display: none; }
 
 .about {
   padding: 152px 0 159px; }
@@ -577,5 +581,25 @@ select {
   font-size: 12px;
   line-height: 1.9;
   color: #fff; }
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .header__subtitle {
+    font-size: 14px; }
+  .menu__list {
+    display: none; }
+  .menu__burger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0; } }
+
+@media (max-width: 440px) {
+  .header__title {
+    font-size: 36px; }
+  .header__subtitle {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=style.min.css.map */
