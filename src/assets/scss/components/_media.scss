@@ -1,4 +1,31 @@
 @media (max-width: 768px) {
+  .about {
+    padding: 75px 0;
+
+    &__inner {
+      display: block;
+    }
+
+    &__title {
+      margin-bottom: 50px;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    
+
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
   .menu {
     &__list {
       position: absolute;
@@ -57,6 +84,12 @@
 }
 
 @media (max-width: 440px) {
+  .title,
+  .about__title {
+    font-size: 28px;
+    line-height: 42px;
+  } 
+
   .header {
     &__title {
       font-size: 36px;
