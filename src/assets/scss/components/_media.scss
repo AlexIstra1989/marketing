@@ -1,4 +1,9 @@
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .title {
+    font-size: 48px;
+    line-height: 65px;  
+  }
+
   .about {
     padding: 75px 0;
 
@@ -13,11 +18,30 @@
     &__text {
       max-width: 100%;
     }
+  }
 
-    
+  .expertise {
+    padding: 75px 0;
 
+    &__title {
+      margin-bottom: 50px;
+    }
   }
   
+}
+
+@media (max-width: 768px) {
+  .expertise {
+    &__inner {
+      display: block;
+      margin-bottom: 75px;
+    }
+
+    &__info {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
 }
 
 @media (max-width: 768px) {
