@@ -1,3 +1,11 @@
+@media (max-width: 1440px) {
+  magic {
+    &__inner {
+      padding: 50px 0;
+    }
+  }
+}
+
 @media (max-width: 1200px) {
   .title {
     font-size: 48px;
